@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ImageViewLeftPadding">20dp</dimen>
+    <dimen name="head">40sp</dimen>
+    <dimen name="signinPage">25sp</dimen>
+    <dimen name="rightMargin">20dp</dimen>
+    <dimen name="leftMargin">30dp</dimen>
+    <dimen name="genText">25sp</dimen>
+</resources>

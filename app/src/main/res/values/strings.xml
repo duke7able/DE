@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DE</string>
+    <string name="otp_input">Write 6 digit OTP</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="ex_mystrongpassword">Ex:MyStrongPassword</string>
+    <string name="signup1">SignUp</string>
+    <string name="Name">Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="next">Next</string>
+    <string name="samplepin">12345</string>
+    <string name="sigin">Signin</string>
+</resources>
