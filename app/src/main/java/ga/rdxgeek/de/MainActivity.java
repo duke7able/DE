@@ -9,9 +9,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.splash);
+        setContentView(R.layout.activity_main);
 
-        Thread welcomeThread = new Thread() {
+/*        Thread welcomeThread = new Thread() {
 
             @Override
             public void run() {
@@ -34,19 +34,8 @@ public class MainActivity extends AppCompatActivity {
         welcomeThread.start();
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
+    */
 
 
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-
-    }
-
-
 }
