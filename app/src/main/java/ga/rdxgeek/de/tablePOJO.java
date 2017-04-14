@@ -13,12 +13,12 @@ import java.util.List;
 @Table(name = "user")
 public class tablePOJO extends Model {
     @Column(name = "name")
-    public String name;
-    @Column(name = "username")
-    public String username;
+    public String Name;
+    @Column(name = "trustedPerson")
+    public Integer tp;
     @Column(name = "email")
     public String email;
-    @Column(name = "password")
+    @Column(name = "pass")
     public String password;
 
     public static List<tablePOJO>selectStarQuery(){

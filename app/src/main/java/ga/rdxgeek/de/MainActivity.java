@@ -6,13 +6,15 @@ import android.os.Bundle;
 
 import com.activeandroid.ActiveAndroid;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ActiveAndroid.initialize(this);
+        //ActiveAndroid.initialize(this);
 /*        Thread welcomeThread = new Thread() {
 
             @Override
@@ -38,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
     */
 
+        Intent menuIntent = new Intent(this, LoginActivity.class);
+        startActivity(menuIntent);
 
     }
 }
