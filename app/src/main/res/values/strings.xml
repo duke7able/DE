@@ -13,7 +13,7 @@
     <string name="next">Next</string>
     <string name="samplepin">12345</string>
     <string name="sigin">Signin</string>
-    <string name="FriendName">FriendName</string>
+    <string name="FriendName">Friend Name</string>
     <string name="FriendName_edit">Nimesh</string>
     <string name="mobile_edit">8888888888</string>
     <string name="title_activity_login">Sign in</string>
