@@ -54,10 +54,10 @@ public class MainActivity extends AppCompatActivity {
         *
         * */
 
-        Intent menuIntent = new Intent(this, signup.class);
-        startActivity(menuIntent);
-        /*Intent menuIntent = new Intent(this, LoginActivity.class);
+        /*Intent menuIntent = new Intent(this, signup.class);
         startActivity(menuIntent);*/
+        Intent menuIntent = new Intent(this, LoginActivity.class);
+        startActivity(menuIntent);
         /*Intent menuIntent1 = new Intent(this, dashboard.class);
         startActivity(menuIntent1);*/
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DE</string>
+    <string name="app_name">Karyak Smatha</string>
     <string name="otp_input">Write 6 digit OTP</string>
     <string name="signup">Signup</string>
     <string name="login">Login</string>
