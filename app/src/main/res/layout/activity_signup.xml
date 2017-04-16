@@ -68,7 +68,7 @@
         android:layout_alignBaseline="@+id/email_signup"
         android:layout_alignBottom="@+id/email_signup" />
 
-    <AutoCompleteTextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
