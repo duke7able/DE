@@ -109,6 +109,7 @@ public class dashboard extends AppCompatActivity
 
         }
 */      responseView = (TextView)findViewById(R.id.disp_json) ;
+        responseView.setText("");
         importFromApi =(Button)findViewById(R.id.importFromApi);
         importFromApi.setOnClickListener(
                 new View.OnClickListener(){
