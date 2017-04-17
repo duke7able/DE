@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.activeandroid.ActiveAndroid;
+
 public class signup extends AppCompatActivity {
     /*comment*/
 
@@ -36,7 +38,6 @@ public class signup extends AppCompatActivity {
         mEmail = (EditText) findViewById(R.id.email_signup);
         mFriendName = (EditText) findViewById(R.id.Fname_edit);
         mFriendMobile = (EditText) findViewById(R.id.mobile_edit);
-
 
         mPass = (EditText) findViewById(R.id.password_signup);
         onStart();
@@ -133,6 +134,17 @@ public class signup extends AppCompatActivity {
         } else {
             //register a new user
             //for now lets put finish kinda thing
+//            ActiveAndroid.initialize(this);
+//            tablePOJO t = new tablePOJO();
+//            t.email = email;
+//            t.password = password;
+//            t.Name = name;
+//            t.tp = 0;
+            /*trustedPerson trustedPerson = new trustedPerson();
+            trustedPerson.Name =FreindName;
+            trustedPerson.phone = Integer.parseInt(FriendMobile);*/
+            /*t.save();*/
+            /*trustedPerson.save();*/
             finish();
 
         }

@@ -60,6 +60,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mProgressView;
     private View mLoginFormView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,6 +98,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                         downloadAndRepopulateList(sync);
                         *//*blankMethodInit(sync);*//*
                     }*/
+
         Thread welcomeThread = new Thread() {
 
             @Override
@@ -104,7 +106,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 try {
                     super.run();
                     while(loop){
-                        sleep(5000);  //Delay of 5 second
+                        sleep(3000);  //Delay of 5 second
                     }
 
                 }catch (Exception e){
@@ -156,6 +158,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         getLoaderManager().initLoader(0, null, this);
     }
 
+    public void signupMethod(View view){
+        Intent menuIntent = new Intent(this, signup.class);
+        startActivity(menuIntent);
+    }
     private boolean mayRequestContacts() {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
             return true;

@@ -37,6 +37,9 @@
             android:name=".dashboard"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="49331906bc96797b1f7ab489548689b91fb098ed" />
     </application>
 
 </manifest>

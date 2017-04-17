@@ -3,8 +3,11 @@ package ga.rdxgeek.de;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.activeandroid.ActiveAndroid;
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 
 
 
@@ -13,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         //ActiveAndroid.initialize(this);
 /*        Thread welcomeThread = new Thread() {
@@ -62,4 +66,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(menuIntent1);*/
 
     }
+    /*public void forceCrash(View view) {
+        throw new RuntimeException("This is a crash");
+    }*/
+
 }

@@ -21,6 +21,12 @@ public class tablePOJO extends Model {
     @Column(name = "pass")
     public String password;
 
+    tablePOJO(){
+        Name = "";
+        tp = 0;
+        email = "";
+        password = "";
+    }
     public static List<tablePOJO>selectStarQuery(){
         return new Select().from(tablePOJO.class).execute();
     }
